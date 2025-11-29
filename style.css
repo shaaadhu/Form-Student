@@ -1,0 +1,78 @@
+
+:root {
+    --dark-blue: #444c7e; 
+    --input-bg: #7f83a0; 
+    --main-bg: #e0d0da; 
+    --submit-btn-bg: #e3c4ce;
+    --upload-btn-bg: #f8f9fa;
+    --text-color: #333;
+}
+
+
+.full-body{
+    background-color: var(--main-bg)
+
+}
+.main-container {
+    max-width: 600px; 
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.form-container{
+    background-color:var(--dark-blue) ;
+    border-radius: 0 0 1rem 1rem;
+}
+
+
+
+.custom-upload-btn {
+    background-color: var(--upload-btn-bg);
+    color: var(--dark-blue);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+
+.captcha{
+    border-radius: 0.2rem;
+}
+
+.custom-submit-btn {
+    background-color: white;
+    color: var(--dark-blue);
+    border: none;
+    border-radius: 1.5rem;
+}
+.custom-input{
+    background-color: var(--input-bg);
+}
+
+.custom-input:focus,
+.custom-select:focus {
+    background-color: var(--input-bg) !important;
+    color: var(--text-color);
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+    border: none;
+}
+
+
+
+.iti__selected-dial-code,
+.iti__dial-code{
+    color: #0f0f0f;
+}
+.iti__dropdown-content{
+ background-color:var(--input-bg)!important;
+}
+
+
+
+@media (max-width: 576px) {
+    .custom-submit-btn {
+        padding: 0.75rem 1rem;
+    }
+}
